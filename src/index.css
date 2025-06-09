@@ -1,0 +1,32 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Keyframes for Animations (jika Anda sudah menambahkan ini dari HeroSection) */
+@keyframes fadeInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem); /* 2rem = 32px */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom Animation Utilities */
+.animate-fade-in-up {
+  animation: fadeInFromBottom 1s ease-out forwards;
+}
+
+/* Animation Delays */
+.animate-delay-200 {
+  animation-delay: 0.2s;
+}
+.animate-delay-500 {
+  animation-delay: 0.5s;
+}
+.animate-delay-800 {
+  animation-delay: 0.8s;
+}
