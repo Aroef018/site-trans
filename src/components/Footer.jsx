@@ -17,7 +17,7 @@ function Footer() {
         </p>
         <div className="flex justify-center space-x-8 mb-6">
           <a
-            href="https://wa.me/6281234567890" // Ganti dengan nomor WA asli Anda (tanpa + atau spasi)
+            href="https://wa.me/62895380833859" // Ganti dengan nomor WA asli Anda (tanpa + atau spasi)
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary-text hover:text-site-green text-4xl transition duration-300"

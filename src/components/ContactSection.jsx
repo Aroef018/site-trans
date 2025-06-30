@@ -22,17 +22,17 @@ function ContactSection() {
               <p className="flex items-center">
                 <span className="text-site-green text-3xl mr-4">📞</span>{" "}
                 {/* Ganti dengan <FaPhoneAlt /> */}
-                <a href="tel:+6281234567890" className="hover:underline">
-                  +62 812-3456-7890
+                <a href="tel:+62895380833859" className="hover:underline">
+                  +62 895-3808-33859
                 </a>
               </p>
-              <p className="flex items-center">
+              {/* <p className="flex items-center">
                 <span className="text-site-green text-3xl mr-4">📧</span>{" "}
-                {/* Ganti dengan <FaEnvelope /> */}
+                
                 <a href="mailto:info@sitetrans.com" className="hover:underline">
                   info@sitetrans.com
                 </a>
-              </p>
+              </p> */}
               <p className="flex items-center">
                 <span className="text-site-green text-3xl mr-4">📍</span>{" "}
                 Kalimanggis Utara,Cilongok, Kec. Cilongok, Kabupaten Banyumas,
